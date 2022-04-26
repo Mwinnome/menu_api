@@ -1,6 +1,4 @@
 const mongoose =require("mongoose")
-const { required } = require("nodemon/lib/config")
-const { stringify } = require("nodemon/lib/utils")
 
 const foodSchema = mongoose.Schema({
     name:{
